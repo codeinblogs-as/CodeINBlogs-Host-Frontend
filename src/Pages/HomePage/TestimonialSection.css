@@ -1,0 +1,8 @@
+/* Add this to your CSS */
+blockquote {
+    transition: transform 0.5s ease-in-out;
+}
+
+blockquote.active {
+    transform: translateX(0%);
+}
